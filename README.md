@@ -98,6 +98,8 @@ For assistance with vi commands, see:
   ```
 
 	**Note:** For SRM users, you must connect to your device as root. No other username will allow these commands to run.
+  
+  #Now we'll add a new DDNS service. Type "vi /etc.defaults/ddns_provider.conf" and press enter. You're now using a text editor to look inside the DDNS services database.
 
 3. **Update DDNS provider list:** Using a command line editor, insert the text below to your DMS file (Location : __/etc.defaults/ddns_provider.conf__), to add DDNS support via Cloudflare:
 
